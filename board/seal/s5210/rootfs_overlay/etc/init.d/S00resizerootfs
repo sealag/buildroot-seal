@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Resizing rootfs..."
+resize2fs /dev/mmcblk0p1
+rm /etc/init.d/S00resizerootfs
